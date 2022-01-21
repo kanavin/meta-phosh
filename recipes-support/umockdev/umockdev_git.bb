@@ -3,8 +3,8 @@ LICENSE = "LGPL-2.1"
 LIC_FILES_CHKSUM = "file://COPYING;md5=4fbd65380cdd255951079008b364516c"
 
 SRC_URI = "git://github.com/martinpitt/umockdev.git"
-SRCREV = "8d53ab042b30dfb3f3be7cd9803aa8a545ef1f53"
-PV = "0.15.5"
+SRCREV = "00585c9f78832598d0b412619e1ea335bc3eca16"
+PV = "0.17.5"
 S = "${WORKDIR}/git"
 
 inherit meson vala gobject-introspection features_check
